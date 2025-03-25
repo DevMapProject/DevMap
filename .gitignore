@@ -1,0 +1,25 @@
+# ========= Java 컴파일 결과물 =========
+*.class
+*.log
+*.war
+*.jar
+
+# ========= Eclipse 관련 =========
+.settings/
+.project
+.classpath
+
+# ========= IntelliJ 관련 =========
+.idea/
+*.iml
+
+# ========= 빌드 디렉터리 =========
+build/
+out/
+target/
+bin/
+classes/
+
+# ========= OS/툴 공통 =========
+.DS_Store
+Thumbs.db

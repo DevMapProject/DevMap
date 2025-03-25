@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="devmap">
+    <output-path>$PROJECT_DIR$/classes/artifacts/devmap</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DevMap" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="DevMap/web/Web" />
+    </root>
+  </artifact>
+</component>
