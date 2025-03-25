@@ -539,6 +539,14 @@
 								</li>
 							</ol>
 						</div>
+						
+						<div class="col-sm-6">
+							<h3 class="mb-0">0일차 미션 문제 풀기 > join > 총매출 조회하기</h3>
+						</div>
+						
+						<div class="col-sm-6">
+							<h6 class="mb-0">5월 식품들의 총매출 조회하기</h6>
+						</div>
 					</div>
 					<!--end::Row-->
 				</div>
@@ -551,111 +559,20 @@
 				<div class="container-fluid">
 					<!--begin::Row-->
 					<div class="row">
-						<div class="col-md-2">
+						<div class="col-md-6">
 							<div class="card mb-4">
-								<div class="card-body" style="height: 70vh">
-									<div><span>과정</span></div>
-									<div>JAVA</div>
-									<div>JAVA</div>
-									<div>JAVA</div>
-									
-									<div class="mb-2">
-										<button type="button" class="btn btn-primary btn-lg">모든 문제보기</button>
-									</div>
-									
-									<div>
-										<button type="button" class="btn btn-primary btn-lg">제출한 문제보기</button>
-									</div>
-									
+								<div class="card-body" style="height: 60vh">
+									문제
 								</div>
-								
 							</div>
 							<!-- /.card -->
 						</div>
 						<!-- /.col -->
-						<div class="col-md-10">
-							<div class="card mb-4">
-								<div class="card-body p-0" style="height: 70vh">
-									<div class="card mb-4">
-										<div class="card-header">
-											<h3 class="card-title">JAVA</h3>
-										</div>
-										<!-- /.card-header -->
-										<div class="card-body">
-											<table class="table table-bordered">
-												<thead>
-													<tr>
-														<th>문항 번호</th>
-														<th>문제</th>
-														<th>정답자수</th>
-														<th>시도횟수</th>
-														<th>정답률</th>
-												</thead>
-												<tbody>
-													<tr class="align-middle">
-														<td>1.</td>
-														<td>Update software</td>
-														<td>
-															<div class="progress progress-xs">
-																<div class="progress-bar progress-bar-danger"
-																	style="width: 55%"></div>
-															</div>
-														</td>
-														<td><span class="badge text-bg-danger">55%</span></td>
-														<td></td>
-													</tr>
-													<tr class="align-middle">
-														<td>2.</td>
-														<td>Clean database</td>
-														<td>
-															<div class="progress progress-xs">
-																<div class="progress-bar text-bg-warning"
-																	style="width: 70%"></div>
-															</div>
-														</td>
-														<td><span class="badge text-bg-warning">70%</span></td>
-														<td></td>
-													</tr>
-													<tr class="align-middle">
-														<td>3.</td>
-														<td>Cron job running</td>
-														<td>
-															<div class="progress progress-xs progress-striped active">
-																<div class="progress-bar text-bg-primary"
-																	style="width: 30%"></div>
-															</div>
-														</td>
-														<td><span class="badge text-bg-primary">30%</span></td>
-														<td></td>
-													</tr>
-													<tr class="align-middle">
-														<td>4.</td>
-														<td>Fix and squish bugs</td>
-														<td>
-															<div class="progress progress-xs progress-striped active">
-																<div class="progress-bar text-bg-success"
-																	style="width: 90%"></div>
-															</div>
-														</td>
-														<td><span class="badge text-bg-success">90%</span></td>
-														<td></td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-										<!-- /.card-body -->
-										<div class="card-footer clearfix">
-											<ul class="pagination pagination-sm m-0 float-end">
-												<li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-												<li class="page-item"><a class="page-link" href="#">1</a></li>
-												<li class="page-item"><a class="page-link" href="#">2</a></li>
-												<li class="page-item"><a class="page-link" href="#">3</a></li>
-												<li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-											</ul>
-										</div>
-									</div>
+						<div class="col-md-6">
+							<div class="card mb-4" >
+								<div class="card-body" style="height: 60vh">
+									코드작성
 								</div>
-								<!-- /.card-body -->
 							</div>
 
 						</div>
@@ -666,6 +583,10 @@
 				<!--end::Container-->
 			</div>
 			<!--end::App Content-->
+			
+			<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-primary" type="button">제출하기</button>
+			</div>
 		</main>
 		<!--end::App Main-->
 		<!--begin::Footer-->
