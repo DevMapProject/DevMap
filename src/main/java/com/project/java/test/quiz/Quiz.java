@@ -13,8 +13,6 @@ public class Quiz extends HttpServlet {
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
 		req.getRequestDispatcher("/WEB-INF/views/test/quiz/quiz.jsp").forward(req, resp);
 	}
-
 } 
